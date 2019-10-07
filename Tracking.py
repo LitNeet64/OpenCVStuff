@@ -1,7 +1,9 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture('C:\\Users\\xXxLitPussyDestroyeR\\Downloads\\vid.mp4')
+path = '/some/path'
+
+cap = cv2.VideoCapture(path)
 
 # take first frame of the video
 ret,frame = cap.read()
